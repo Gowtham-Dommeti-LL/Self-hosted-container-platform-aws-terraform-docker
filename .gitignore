@@ -4,5 +4,15 @@
 # Windows
 Thumbs.db
 
-# VS Code Workspace Settings
+# VS Code
 .vscode/
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform variable file
+terraform.tfvars
